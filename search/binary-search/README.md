@@ -17,7 +17,7 @@ If the target is less than the middle, search the left half.<br>
 <h3>Time complexity</h3>
 n = number of elements <br>
 Time complexity is the number of times needed to divide in half to reach the unit. <br>
-Time complexity = log n <br>
+Time complexity = O(log n) <br>
 
 <h3>Space complexity</h3>
 n = number of elements <br>
@@ -25,5 +25,14 @@ The space complexity is also proportional to the number of times needed to divid
 Ex <br>
 each level has to be saved on the recursion stack.<br>
 
-Space complexity = log n <br>
+Space complexity = O(log n) <br>
 
+<h2>Iterative implementation</h2>
+
+<h3>Time complexity</h3>
+The same as the recursive implementation.
+
+<h3>Space complexity</h3>
+Depends on the space taken by left and right which is a constant<br>
+
+Space complexity = O(1) <br>
